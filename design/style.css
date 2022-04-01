@@ -69,8 +69,15 @@ display: flex;
 input {
 border: 1px solid hsl(243, 87%, 12%);
 border-radius: 2px;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 13px;
 padding: 15px;
 flex: 0.6;
+}
+
+input::placeholder {
+  color: hsl(0, 0%, 75%)
 }
 
 button {
@@ -157,4 +164,35 @@ button {
 .lighter-purple button {
   width: 40%;
   margin: 20px 0;
+}
+
+.purple {
+  background-color:  hsl(243, 87%, 12%);
+  color: #fff;
+  text-decoration: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.colomn1 ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.colomn2 ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.colomn3 ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.colomn4 ul a {
+  color: #fff;
+  text-decoration: none;
 }
