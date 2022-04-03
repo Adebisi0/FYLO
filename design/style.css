@@ -166,33 +166,21 @@ button {
   margin: 20px 0;
 }
 
-.purple {
-  background-color:  hsl(243, 87%, 12%);
-  color: #fff;
-  text-decoration: none;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.put {
+background-color: hsl(243, 87%, 12%);
+color: #fff;
+padding: 50px 0;
 }
 
-.colomn1 ul a {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-.colomn2 ul a {
-  color: #fff;
+.put ul {
+  list-style-type: none;
   text-decoration: none;
 }
 
-
-.colomn3 ul a {
-  color: #fff;
-  text-decoration: none;
+.put ul li {
+  margin-bottom: 20px;
 }
 
-
-.colomn4 ul a {
-  color: #fff;
-  text-decoration: none;
+.flex2 {
+  display: flex;
 }
